@@ -1,3 +1,6 @@
+## 1.3.4 - 2022-09-30
+- Try to fix arch
+
 ## 1.3.3 - 2022-09-30
 - Fix path in run
 

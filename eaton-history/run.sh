@@ -11,4 +11,4 @@ ls -l /app/alpine.3.16-arm64
 #DOMAIN=$(bashio::config 'domain')
 #MAX_LEASE=$(bashio::config 'max_lease')
 
-./app/alpine.3.16-arm64/home-console list
+#./app/alpine.3.16-arm64/home-console list
