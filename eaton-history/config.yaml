@@ -1,0 +1,22 @@
+name: "Eaton History"
+description: "Downloads Eaton history and shows it as entities"
+version: "1.3.0"
+slug: "eaton-history"
+url: https://github.com/MortalFlesh/Hassio-Addons/tree/main/eaton-history
+init: false
+arch:
+  - aarch64
+
+# use built image
+#image: ghcr.io/MortalFlesh/ha-eaton-history-{arch}
+
+# expose ports for web server
+# startup: before # tohle nevim, k cemu presne je
+#ports:
+#  8000/tcp: 8000
+
+# https://developers.home-assistant.io/docs/add-ons/tutorial#bonus-working-with-add-on-options
+options:
+  beer: true
+schema:
+  beer: bool
