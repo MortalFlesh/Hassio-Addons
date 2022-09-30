@@ -1,11 +1,12 @@
 name: "Eaton History"
 description: "Downloads Eaton history and shows it as entities"
-version: "1.3.6"
+version: "1.3.7"
 slug: "eaton-history"
 url: https://github.com/MortalFlesh/Hassio-Addons/tree/main/eaton-history
 init: false
 arch:
   - aarch64
+  - amd64
 
 image: ghcr.io/mortalflesh/ha-eaton-history-{arch}
 

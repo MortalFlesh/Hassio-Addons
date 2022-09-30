@@ -1,3 +1,6 @@
+## 1.3.7 - 2022-09-30
+- Try to use correct arch
+
 ## 1.3.6 - 2022-09-30
 - Try to fix arch
 

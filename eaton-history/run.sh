@@ -1,5 +1,6 @@
 #!/usr/bin/with-contenv bashio
-#set -e
+
+set -e
 
 bashio::log.info "Hello from docker!"
 
@@ -10,10 +11,6 @@ bashio::log.info "Hello from docker!"
 #DOMAIN=$(bashio::config 'domain')
 #MAX_LEASE=$(bashio::config 'max_lease')
 
-#bashio::log.info "Trying linux-musl-x64!"
-#ls -l /app/linux-musl-x64
-#./linux-musl-x64/home-console list
-
-bashio::log.info "Trying linux-arm64!"
-ls -l /app/linux-arm64
-./linux-arm64/home-console list
+bashio::log.info "Trying alpine.3.16-arm64!"
+ls -l /app/alpine.3.16-arm64
+./alpine.3.16-arm64/home-console list
