@@ -1,7 +1,8 @@
-ARG BUILD_FROM="alpine"
-ARG CONSOLE_VERSION="1.2.0"
+ARG BUILD_FROM="alpine:3.16"
 
 FROM $BUILD_FROM
+
+ENV CONSOLE_VERSION "1.2.0"
 
 RUN apk update && apk add \
     bash \
@@ -14,7 +15,7 @@ RUN apk update && apk add \
     zlib \
     ;
 
-ADD https://github.com/MortalFlesh/home-console/releases/download/$CONSOLE_VERSION/alpine.3.16-arm64.tar.gz /app/
+ADD "https://github.com/MortalFlesh/home-console/releases/download/${CONSOLE_VERSION}/alpine.3.16-arm64.tar.gz" /app/
 
 WORKDIR /app
 
