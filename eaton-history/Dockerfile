@@ -4,7 +4,7 @@ FROM $BUILD_FROM
 
 ENV CONSOLE_VERSION "1.2.0"
 
-RUN apk update && apk add \
+RUN apk --no-cache add \
     bash \
     icu-libs \
     krb5-libs \
