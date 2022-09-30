@@ -1,8 +1,7 @@
 #!/usr/bin/with-contenv bashio
-set -e
+#set -e
 
 bashio::log.info "Hello from docker!"
-ls -l /app/alpine.3.16-arm64
 
 # https://github.com/home-assistant/addons/blob/master/dhcp_server/data/run.sh#L10-L13
 # Create main config
@@ -11,4 +10,10 @@ ls -l /app/alpine.3.16-arm64
 #DOMAIN=$(bashio::config 'domain')
 #MAX_LEASE=$(bashio::config 'max_lease')
 
-#./app/alpine.3.16-arm64/home-console list
+bashio::log.info "Trying linux-musl-x64!"
+ls -l /app/linux-musl-x64
+./linux-musl-x64/home-console list
+
+bashio::log.info "Trying linux-arm64!"
+ls -l /app/linux-arm64
+./linux-arm64/home-console list
