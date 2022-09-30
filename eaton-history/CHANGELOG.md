@@ -1,3 +1,6 @@
+## 1.3.8 - 2022-09-30
+- Use correct architecture
+
 ## 1.3.7 - 2022-09-30
 - Try to use correct arch
 
