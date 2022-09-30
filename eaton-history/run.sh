@@ -10,9 +10,9 @@ bashio::log.info "Hello from docker!"
 #DOMAIN=$(bashio::config 'domain')
 #MAX_LEASE=$(bashio::config 'max_lease')
 
-bashio::log.info "Trying linux-musl-x64!"
-ls -l /app/linux-musl-x64
-./linux-musl-x64/home-console list
+#bashio::log.info "Trying linux-musl-x64!"
+#ls -l /app/linux-musl-x64
+#./linux-musl-x64/home-console list
 
 bashio::log.info "Trying linux-arm64!"
 ls -l /app/linux-arm64
