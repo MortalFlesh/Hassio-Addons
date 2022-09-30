@@ -1,0 +1,8 @@
+default: true
+
+MD001: false    # Heading levels should only increment by one level at a time
+MD003: false    # Heading style [Expected: setext; Actual: atx]
+MD022: false    # First line in file should be a top level heading [Context: "- Fix image"]
+MD032: false    # Lists should be surrounded by blank lines [Context: "- Fix readme and base image"]
+MD034: false    # Bare URL used [Context: "https://github.com/MortalFlesh..."]
+MD041: false    # First line in file should be a top level header

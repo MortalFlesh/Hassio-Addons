@@ -1,3 +1,5 @@
+## 1.3.2 - 2022-09-30
+- Fix image
 
 ## 1.3.1 - 2022-09-30
 - Fix readme and base image
