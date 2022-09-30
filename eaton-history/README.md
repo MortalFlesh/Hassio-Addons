@@ -28,5 +28,5 @@ Pick latest release and update it in:
 [install-badge]: https://img.shields.io/badge/Install%20on%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 
-[install-url]: https://my.home-assistant.io/redirect/supervisor_addon?addon=eaton-history
+[install-url]: https://my.home-assistant.io/redirect/supervisor_addon?addon=7118652e_eaton-history
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FMortalFlesh%2FHassio-Addons
