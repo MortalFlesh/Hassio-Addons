@@ -1,3 +1,6 @@
+## 1.5.0 - 2022-10-03
+- Allow ingress
+
 ## 1.4.2 - 2022-10-03
 - Fix web server (again)
 

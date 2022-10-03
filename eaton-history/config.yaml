@@ -1,6 +1,6 @@
 name: "Eaton History"
 description: "Downloads Eaton history and shows it as entities"
-version: "1.4.2"
+version: "1.5.0"
 slug: "eaton-history"
 url: https://github.com/MortalFlesh/Hassio-Addons/tree/main/eaton-history
 init: false
@@ -15,7 +15,8 @@ ports:
 ports_description:
   8080/tcp: "Web server exposed from a home console."
 
-webui: "[PROTO:option_name]://[HOST]:[PORT:28080]/sensors"
+ingress: true
+ingress_port: 28080
 
 # https://developers.home-assistant.io/docs/add-ons/tutorial#bonus-working-with-add-on-options
 options:
