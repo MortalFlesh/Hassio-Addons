@@ -1,5 +1,9 @@
+## 1.4.1 - 2022-10-03
+- Fix web server
+
 ## 1.4.0 - 2022-10-03
 - Update home-console
+- Enable web server
 
 ## 1.3.8 - 2022-09-30
 - Use correct architecture
