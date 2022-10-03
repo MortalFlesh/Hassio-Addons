@@ -1,3 +1,6 @@
+## 1.4.2 - 2022-10-03
+- Fix web server (again)
+
 ## 1.4.1 - 2022-10-03
 - Fix web server
 
