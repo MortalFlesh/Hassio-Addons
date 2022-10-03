@@ -1,3 +1,6 @@
+## 1.4.0 - 2022-10-03
+- Update home-console
+
 ## 1.3.8 - 2022-09-30
 - Use correct architecture
 

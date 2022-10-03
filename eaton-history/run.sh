@@ -14,4 +14,4 @@ bashio::log.info "Hello from docker!"
 
 bashio::log.info "Trying alpine.3.16-arm64!"
 ls -l /app/alpine.3.16-arm64
-./alpine.3.16-arm64/home-console list
+./alpine.3.16-arm64/home-console home:web:run
