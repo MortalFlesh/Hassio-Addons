@@ -1,3 +1,6 @@
+## 1.6.0 - 2022-10-06
+- Read live stats from eaton controller (for specific sensors only)
+
 ## 1.5.0 - 2022-10-03
 - Allow ingress
 
