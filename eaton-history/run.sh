@@ -14,8 +14,6 @@ mkdir eaton-history
 
 bashio::log.info "Running home console web server!"
 ./alpine.3.16-arm64/home-console home:web:run \
-    --host="$EATON_HOST"            \ # Host IP of the eaton controller. \
-    --name="$EATON_NAME"            \ # Name for eaton controller. [default: "admin"] \
-    --password="$EATON_PASSWORD"    \ # Password for eaton controller. \
-    # --cookies-path=""             \ # Path for a credentials file. [default: "./eaton-cookies.json"]
-    # --history-path[=HISTORY-PATH] \ # Path for a downloaded history directory. [default: "./eaton-history"]
+    --host="$EATON_HOST"            \
+    --name="$EATON_NAME"            \
+    --password="$EATON_PASSWORD"    \

@@ -1,3 +1,8 @@
+## 1.6.1 - 2022-10-06
+- Fix run script options for a web server command
+- Fix ingress path
+- Add panel icon
+
 ## 1.6.0 - 2022-10-06
 - Read live stats from eaton controller (for specific sensors only)
 
