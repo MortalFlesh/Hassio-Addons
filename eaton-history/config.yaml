@@ -1,6 +1,6 @@
 name: "Eaton History"
 description: "Downloads Eaton history and shows it as entities"
-version: "1.5.0"
+version: "1.6.0"
 slug: "eaton-history"
 url: https://github.com/MortalFlesh/Hassio-Addons/tree/main/eaton-history
 init: false
@@ -20,6 +20,10 @@ ingress_port: 28080
 
 # https://developers.home-assistant.io/docs/add-ons/tutorial#bonus-working-with-add-on-options
 options:
-  beer: true
+  eaton_host: ""
+  eaton_name: "admin"
+  eaton_password: ""
 schema:
-  beer: bool
+  eaton_host: str
+  eaton_name: str
+  eaton_password: str
