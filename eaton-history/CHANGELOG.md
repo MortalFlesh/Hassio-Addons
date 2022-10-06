@@ -1,3 +1,6 @@
+## 1.6.2 - 2022-10-06
+- Fix creating URL in web server
+
 ## 1.6.1 - 2022-10-06
 - Fix run script options for a web server command
 - Fix ingress path
