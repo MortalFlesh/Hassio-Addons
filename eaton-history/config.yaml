@@ -1,6 +1,6 @@
 name: "Eaton History"
 description: "Downloads Eaton history and shows it as entities"
-version: "1.8.1"
+version: "1.8.2"
 slug: "eaton-history"
 url: https://github.com/MortalFlesh/Hassio-Addons/tree/main/eaton-history
 init: false
@@ -10,7 +10,7 @@ arch:
 image: ghcr.io/mortalflesh/ha-eaton-history-{arch}
 
 ingress: true
-ingress_port: 0
+ingress_port: 28080
 #ingress_entry: /
 
 ports:

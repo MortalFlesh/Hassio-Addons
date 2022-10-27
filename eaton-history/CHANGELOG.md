@@ -1,3 +1,6 @@
+## 1.8.2 - 2022-10-27
+- Try ingress with port of the app
+
 ## 1.8.1 - 2022-10-27
 - Try ingress with port 0
 
