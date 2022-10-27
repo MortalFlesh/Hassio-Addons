@@ -1,3 +1,6 @@
+## 1.7.0 - 2022-10-27
+- Debug ingress and web server
+
 ## 1.6.3 - 2022-10-06
 - Fix creating Api in web server
 
