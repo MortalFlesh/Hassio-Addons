@@ -1,6 +1,6 @@
 name: "Eaton History"
 description: "Downloads Eaton history and shows it as entities"
-version: "1.8.2"
+version: "1.8.3"
 slug: "eaton-history"
 url: https://github.com/MortalFlesh/Hassio-Addons/tree/main/eaton-history
 init: false
@@ -14,10 +14,10 @@ ingress_port: 28080
 #ingress_entry: /
 
 ports:
-  8080/tcp: 28080
+  28080/tcp: 28080
 
 ports_description:
-  8080/tcp: "Web server exposed from a home console."
+  28080/tcp: "Web server exposed from a home console."
 
 panel_icon: mdi:home-analytics
 
