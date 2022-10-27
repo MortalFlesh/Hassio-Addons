@@ -1,3 +1,6 @@
+## 1.8.1 - 2022-10-27
+- Try ingress with port 0
+
 ## 1.8.0 - 2022-10-27
 - Try ingress with default configuration
 
