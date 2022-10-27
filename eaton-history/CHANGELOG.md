@@ -1,3 +1,6 @@
+## 1.8.0 - 2022-10-27
+- Try ingress with default configuration
+
 ## 1.7.0 - 2022-10-27
 - Debug ingress and web server
 
