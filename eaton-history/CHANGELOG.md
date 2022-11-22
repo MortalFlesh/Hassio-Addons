@@ -1,3 +1,6 @@
+## 1.9.0 - 2022-11-22
+- Allow to change eaton device status
+
 ## 1.8.4 - 2022-10-27
 - Show ingress html index
 
