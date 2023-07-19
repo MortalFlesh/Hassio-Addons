@@ -1,3 +1,10 @@
+## 1.11.0 - 2023-07-19
+- Show real sensors and switches on homepage
+- Allow to trigger scene
+
+## 1.10.0 - 2023-07-18
+- Use net7.0
+
 ## 1.9.0 - 2022-11-22
 - Allow to change eaton device status
 
