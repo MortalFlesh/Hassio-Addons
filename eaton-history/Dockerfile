@@ -2,7 +2,7 @@ ARG BUILD_FROM="alpine:3.16"
 
 FROM $BUILD_FROM
 
-ENV CONSOLE_VERSION "1.11.0"
+ENV CONSOLE_VERSION "1.11.1"
 
 RUN apk --no-cache add \
     bash \
