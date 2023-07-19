@@ -1,7 +1,11 @@
+## 1.12.0 - 2023-07-19
+- Add cache for device states, update it internally and offers a cache in device state endpoint
+- Add /states endpoint to show a current states
+
 ## 1.11.1 - 2023-07-19
 - Read device state `open`
 
-## 1.11.1 - 2023-07-19
+## 1.11.0 - 2023-07-19
 - Show real sensors and switches on homepage
 - Allow to trigger scene
 
