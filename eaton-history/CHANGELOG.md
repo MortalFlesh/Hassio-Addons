@@ -1,3 +1,6 @@
+## 1.14.0 - 2023-08-11
+- Use build project
+
 ## 1.13.0 - 2023-07-20
 - Store current state after changing
 
