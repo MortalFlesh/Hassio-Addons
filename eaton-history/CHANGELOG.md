@@ -1,3 +1,6 @@
+## 1.15.0 - 2024-05-06
+- Use net 8.0 and 3.19 base image
+
 ## 1.14.0 - 2023-08-11
 - Use build project
 

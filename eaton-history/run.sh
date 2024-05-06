@@ -13,7 +13,7 @@ EATON_PASSWORD=$(bashio::config 'eaton_password')
 mkdir eaton-history
 
 bashio::log.info "Running home console web server!"
-./alpine.3.16-arm64/home-console home:web:run \
+./linux-musl-arm64/home-console home:web:run \
     --host="$EATON_HOST"            \
     --name="$EATON_NAME"            \
     --password="$EATON_PASSWORD"    \

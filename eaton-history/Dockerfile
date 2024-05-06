@@ -1,8 +1,8 @@
-ARG BUILD_FROM="alpine:3.16"
+ARG BUILD_FROM="alpine:3.19"
 
 FROM $BUILD_FROM
 
-ENV CONSOLE_VERSION "1.14.0"
+ENV CONSOLE_VERSION "1.15.0"
 
 RUN apk --no-cache add \
     bash \
@@ -10,17 +10,17 @@ RUN apk --no-cache add \
     krb5-libs \
     libgcc \
     libintl \
-    libssl1.1 \
+    libssl3 \
     libstdc++ \
     zlib \
     ;
 
-ADD "https://github.com/MortalFlesh/home-console/releases/download/${CONSOLE_VERSION}/alpine.3.16-arm64.tar.gz" /app/
+ADD "https://github.com/MortalFlesh/home-console/releases/download/${CONSOLE_VERSION}/linux-musl-arm64.tar.gz" /app/
 
 WORKDIR /app
 
-RUN tar -xzf alpine.3.16-arm64.tar.gz \
-    && rm alpine.3.16-arm64.tar.gz
+RUN tar -xzf linux-musl-arm64.tar.gz \
+    && rm linux-musl-arm64.tar.gz
 
 # Copy data for add-on
 COPY run.sh /
