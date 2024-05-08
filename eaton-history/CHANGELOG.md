@@ -1,3 +1,6 @@
+## 1.16.0 - 2024-05-08
+- Allow to trigger macro
+
 ## 1.15.0 - 2024-05-06
 - Use net 8.0 and 3.19 base image
 
