@@ -1,4 +1,7 @@
-## 1.17.0 - 2024-10-28
+## 1.17.1 - 2024-10-28
+- Fix formatting float values
+
+## 1.17.1 - 2024-10-28
 - Add Heating Actuator support with sensors
 
 ## 1.16.0 - 2024-05-08
