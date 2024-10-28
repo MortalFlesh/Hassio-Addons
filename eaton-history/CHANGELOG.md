@@ -1,3 +1,6 @@
+## 1.17.0 - 2024-10-28
+- Add Heating Actuator support with sensors
+
 ## 1.16.0 - 2024-05-08
 - Allow to trigger macro
 
