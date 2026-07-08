@@ -1,8 +1,11 @@
+## 1.18.2 - 2026-07-08
+- Update console to 1.18.1
+
 ## 1.18.1 - 2026-07-08
 - Fix console path in run
 
 ## 1.18.0 - 2026-07-08
-### Home console
+### Home console - 1.18.1
 - Sort entity settings table by zone then Eaton name (U1)
 - Add zone naming: local display labels for zone ids, persisted in `settings.json` under `Zones` (U2)
 - Add entity id override: per-entity slug/`unique_id` override in the config page, applied to generated YAML entity names while keeping `state_attr` attribute keys unchanged (U3)
