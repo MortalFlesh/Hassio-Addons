@@ -15,4 +15,7 @@ bashio::log.info "Running home console web server!"
     --host="$EATON_HOST" \
     --name="$EATON_NAME" \
     --password="$EATON_PASSWORD" \
-    --data-path="/data"
+    --data-path="/data" \
+    --cookies-path="/data/eaton-cookies.json" \
+    --history-path="/data/eaton-history"
+

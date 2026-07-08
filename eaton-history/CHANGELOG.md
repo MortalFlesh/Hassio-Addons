@@ -1,3 +1,6 @@
+## 1.18.3 - 2026-07-08
+- Pass in the cookies-path and history-path
+
 ## 1.18.2 - 2026-07-08
 - Update console to 1.18.1
 
