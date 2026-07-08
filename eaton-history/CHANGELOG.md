@@ -1,3 +1,8 @@
+## 1.19.1 - 2026-07-08
+- Update console to 1.19.1
+    - fix deprecations
+    - fix slugs for entities
+
 ## 1.19.0 - 2026-07-08
 - Update console to 1.19
     - show entities settings in modal
