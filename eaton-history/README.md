@@ -1,5 +1,5 @@
-Eaton History
-=============
+Eaton
+=====
 
 ![Addon Stage][stage-badge]
 ![Supports aarch64 Architecture][aarch64-badge]

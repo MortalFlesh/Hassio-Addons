@@ -17,16 +17,16 @@ jobs:
     steps:
 
     - name: ↩️ Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: 📂 Detect changed addons
-      uses: dorny/paths-filter@v2
+      uses: dorny/paths-filter@v3
       id: filter
       with:
         filters: .github/paths-filter.yml
 
     - name: 📂 Detect changed files
-      uses: dorny/paths-filter@v2
+      uses: dorny/paths-filter@v3
       id: changed-files
 
       with:
@@ -46,7 +46,7 @@ jobs:
     steps:
 
       - name: ↩️ Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: 🔎 Run Home Assistant Add-on Lint
         uses: frenck/action-addon-linter@v2
@@ -58,7 +58,7 @@ jobs:
     container: ghcr.io/hadolint/hadolint:latest-alpine
     steps:
       - name: ↩️ Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: 🔎 Run hadolint
         if: steps.filter.outputs.dockerfile == 'true'
@@ -68,11 +68,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ↩️ Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: 📂 Detect changed files
         id: filter
-        uses: dorny/paths-filter@v2.9.0
+        uses: dorny/paths-filter@v3
         with:
           list-files: 'shell'
           filters: |
@@ -90,7 +90,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ↩️ Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: 🔎 Run markdownlint
         uses: nosborn/github-action-markdown-cli@v1.1.1
