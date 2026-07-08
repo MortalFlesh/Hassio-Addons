@@ -11,7 +11,7 @@ EATON_NAME=$(bashio::config 'eaton_name')
 EATON_PASSWORD=$(bashio::config 'eaton_password')
 
 bashio::log.info "Running home console web server!"
-/app/bin/console home:web:run \
+./linux-musl-arm64/home-console home:web:run \
     --host="$EATON_HOST" \
     --name="$EATON_NAME" \
     --password="$EATON_PASSWORD" \

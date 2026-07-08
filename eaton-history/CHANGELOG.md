@@ -1,3 +1,6 @@
+## 1.18.1 - 2026-07-08
+- Fix console path in run
+
 ## 1.18.0 - 2026-07-08
 ### Home console
 - Sort entity settings table by zone then Eaton name (U1)
