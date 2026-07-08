@@ -1,5 +1,6 @@
 default: true
 
+MD013: false    # Line length
 MD001: false    # Heading levels should only increment by one level at a time
 MD003: false    # Heading style [Expected: setext; Actual: atx]
 MD022: false    # First line in file should be a top level heading [Context: "- Fix image"]
