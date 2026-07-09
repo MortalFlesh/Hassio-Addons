@@ -1,3 +1,6 @@
+## 1.19.2 - 2026-07-09
+- Allow to `stop` covers
+
 ## 1.19.1 - 2026-07-08
 - Update console to 1.19.1
     - fix deprecations
