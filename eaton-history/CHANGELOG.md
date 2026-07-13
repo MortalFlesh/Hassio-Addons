@@ -1,3 +1,6 @@
+## 1.19.3 - 2026-07-13
+- Update console to 1.19.3 to fix lights state
+
 ## 1.19.2 - 2026-07-09
 - Allow to `stop` covers
 
