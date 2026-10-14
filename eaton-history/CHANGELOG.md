@@ -1,3 +1,6 @@
+## 1.19.4 - 2026-10-14
+- Update console to 1.19.4 to fix templates and parsing issues
+
 ## 1.19.3 - 2026-07-13
 - Update console to 1.19.3 to fix lights state
 
