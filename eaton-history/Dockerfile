@@ -26,7 +26,4 @@ RUN tar -xzf linux-musl-arm64.tar.gz \
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
-    CMD wget -qO- http://localhost:28080/health || exit 1
-
 CMD [ "/run.sh" ]

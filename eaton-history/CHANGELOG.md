@@ -1,3 +1,6 @@
+## 1.19.5 - 2026-10-14
+- Replace the in-container Docker `HEALTHCHECK` (its `wget localhost` never reached the IPv4-only web server, so the Supervisor watchdog restarted the add-on every ~90 s) with the Supervisor `watchdog` option probing `/health` directly
+
 ## 1.19.4 - 2026-10-14
 - Update console to 1.19.4 to fix templates and parsing issues
 
